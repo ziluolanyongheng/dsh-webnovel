@@ -1,0 +1,9 @@
+# 把本包的 skills/ 目录挂成一个文件系统技能提供方。
+# 路径从已安装的包名解析（锚在 DSH profile 的 Loader baseUrl 上），不拼 baseUrl。
+- insert:
+    - id: webnovel-skill-filesystem
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: webnovel
+        includeDefaultRoots: false
+        bundledSkillDir: !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-webnovel/package.json')), 'skills')
