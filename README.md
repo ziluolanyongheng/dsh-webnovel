@@ -27,7 +27,6 @@ dsh plugin --profile web add github:ziluolanyongheng/dsh-webnovel
 | `novel-writer` | 总流程：文件结构、读什么、写之前想什么、一章的循环、连续写、记住用户的话、汇报 |
 | `novel-grill` | 开书开卷时怎么问用户，何时问、何时不问 |
 | `novel-craft` | 正文写法：爽点、藏底牌、大场面、文风、台词、人物、防公式、卷末自查 |
-| `novel-romance` | 成年角色之间的暧昧和言情张力：二十种路数、推进梯子、台词打法 |
 | `novel-fanfic` | 同人先读原著学写法，查逐字重合 |
 | `novel-check` | 查重脚本和用法 |
 | `novel-factcheck` | 事实核查：钱、流程、时间线、机构、诗文 |
@@ -59,10 +58,6 @@ node skills/novel-check/scripts/check-names.mjs 书稿/ 顾长亭 宋知微
 ```sh
 npm test
 ```
-
-## 致谢
-
-暧昧手法库里的部分手法整理自公开的写作指南和 [oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) 的题材包，只取手法，不含原文。
 
 ## 许可
 

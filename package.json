@@ -1,7 +1,7 @@
 {
   "name": "dsh-webnovel",
-  "version": "0.1.1",
-  "description": "DeepSeek Harness 长篇网文写作技能包：开书拷问、章节循环、爽点与防公式、擦边张力、同人仿写、事实核查，加一套零依赖的查重脚本。",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness 长篇网文写作技能包：开书拷问、章节循环、爽点与防公式、同人仿写、事实核查，加一套零依赖的查重脚本。",
   "license": "MIT",
   "type": "module",
   "main": "./lib/index.js",
