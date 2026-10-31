@@ -54,10 +54,6 @@ node skills/novel-check/scripts/check-volume.mjs 章节/ --from 41 --to 80
 node skills/novel-check/scripts/check-names.mjs 书稿/ 顾长亭 宋知微
 ```
 
-## 内容边界
-
-本包不提供色情内容的写法。亲密戏到亲吻和内衣为止，上床转场。所有技能都要求：角色全员成年且外形成年，不写真实人物，不写以性暴力为卖点的内容，不逐字搬运受版权保护的作品。
-
 ## 开发
 
 ```sh
